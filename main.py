@@ -1,18 +1,23 @@
-def on_logo_touched():
+def Tlacitko(Tlacitko):
     if input.logo_is_pressed():
-        basic.show_number(randint(1, 6))
+        basic.show_number(1, 6)
     else:
-        basic.show_number(randint(0, 10))
+        basic.show_number(1, 10)
 def on_gesture_shake():
-    input.on_gesture(Gesture.SHAKE, on_gesture_shake)
-def on_button_pressed_a():
-    input.on_button_pressed(Button.A, on_button_pressed_a)
+        pass
+input.on_gesture(Gesture.SHAKE, on_gesture_shake)
 
-    if input.button_is_pressed(Button.A):
-             x = randint(0, 10)
 
-    elif x == 1:
-                    soundExpression.giggle(1)
+def x():
+        x == 1, 2, 3, 4, 5, 6
+def y():
+        y == 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+if input.button_is_pressed(Button.A):
+    x = randint(1, 6)
+
+if x == 1:
+                    music.play_tone(Note.A, music.beat(1))
                     basic.show_leds("""
                     # . . . .
                     . . . . .
@@ -20,8 +25,8 @@ def on_button_pressed_a():
                     . . . . .
                     . . . . .
                     """)
-    elif x == 2:
-                    soundExpression.giggle(2)
+if x == 2:
+                    music.play_tone(Note.A, music.beat(2))
                     basic.show_leds("""
                     # # . . .
                     . . . . .
@@ -29,8 +34,8 @@ def on_button_pressed_a():
                     . . . . .
                     . . . . .
                     """)
-    elif x == 3:
-                    soundExpression.giggle(3)
+if x == 3:
+                    music.play_tone(Note.A, music.beat(3))
                     basic.show_leds("""
                     # # # . .
                     . . . . .
@@ -38,8 +43,8 @@ def on_button_pressed_a():
                     . . . . .
                     . . . . .
                     """)
-    elif x == 4:
-                    soundExpression.giggle(4)
+if x == 4:
+                    music.play_tone(Note.A, music.beat(4))
                     basic.show_leds("""
                     # # # # .
                     . . . . .
@@ -47,8 +52,8 @@ def on_button_pressed_a():
                     . . . . .
                     . . . . .
                     """)
-    elif x == 5:
-                    soundExpression.giggle(5)
+if x == 5:
+                    music.play_tone(Note.A, music.beat(5))
                     basic.show_leds("""
                     # # # # #
                     . . . . .
@@ -56,8 +61,8 @@ def on_button_pressed_a():
                     . . . . .
                     . . . . .
                     """)
-    elif x == 6:
-                    soundExpression.giggle(6)
+if x == 6:
+                    music.play_tone(Note.A, music.beat(6))
                     basic.show_leds("""
                     # # # # #
                     # . . . .
@@ -65,39 +70,93 @@ def on_button_pressed_a():
                     . . . . .
                     . . . . .
                     """)
-    elif x == 7:
-                    soundExpression.giggle(7)
-                    basic.show_leds("""
-                    # # # # #
-                    # # . . .
-                    . . . . .
-                    . . . . .
-                    . . . . .
-                    """)    
-    elif x == 8:
-                    soundExpression.giggle(8)
-                    basic.show_leds("""
-                    # # # # #
-                    # # # . .
-                    . . . . .
-                    . . . . .
-                    . . . . .
-                    """)
-    elif x == 9:
-                    soundExpression.giggle(9)
-                    basic.show_leds("""
-                    # # # # #
-                    # # # # .
-                    . . . . .
-                    . . . . .
-                    . . . . .
-                    """)
-    elif x == 10:
-                    soundExpression.giggle(10)
-                    basic.show_leds("""
-                    # # # # #
-                    # # # # #
-                    . . . . .
-                    . . . . .
-                    . . . . .
-                    """)
+                    if y == 1:
+                                        music.play_tone(Note.A, music.beat(1))
+                                        basic.show_leds("""
+                                        # . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 2:
+                                        music.play_tone(Note.A, music.beat(2))
+                                        basic.show_leds("""
+                                        # # . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 3:
+                                        music.play_tone(Note.A, music.beat(3))
+                                        basic.show_leds("""
+                                        # # # . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 4:
+                                        music.play_tone(Note.A, music.beat(4))
+                                        basic.show_leds("""
+                                        # # # # .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 5:
+                                        music.play_tone(Note.A, music.beat(5))
+                                        basic.show_leds("""
+                                        # # # # #
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 6:
+                                        music.play_tone(Note.A, music.beat(6))
+                                        basic.show_leds("""
+                                        # # # # #
+                                        # . . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 7:
+                                        music.play_tone(Note.A, music.beat(7))
+                                        basic.show_leds("""
+                                        # # # # #
+                                        # # . . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 8:
+                                        music.play_tone(Note.A, music.beat(8))
+                                        basic.show_leds("""
+                                        # # # # #
+                                        # # # . .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 9:
+                                        music.play_tone(Note.A, music.beat(9))
+                                        basic.show_leds("""
+                                        # # # # #
+                                        # # # # .
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
+                    if y == 10:
+                                        music.play_tone(Note.A, music.beat(10))
+                                        basic.show_leds("""
+                                        # # # # #
+                                        # # # # #
+                                        . . . . .
+                                        . . . . .
+                                        . . . . .
+                                        """)
