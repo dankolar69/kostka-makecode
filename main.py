@@ -2,16 +2,16 @@ def Tlacitko(Tlacitko):
     if input.logo_is_pressed():
         basic.show_number(1, 6)
     else:
-        basic.show_number(1, 10)
+        basic.show_number(0, 10)
 def on_gesture_shake():
         pass
 input.on_gesture(Gesture.SHAKE, on_gesture_shake)
 
 
 def x():
-        x == 1, 2, 3, 4, 5, 6
+        x == randint(1, 6)
 def y():
-        y == 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        y == randint(1, 10)
 
 if input.button_is_pressed(Button.A):
     x = randint(1, 6)
